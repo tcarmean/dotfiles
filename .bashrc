@@ -35,3 +35,6 @@ alias ls='gls --color=auto'
 alias vim='mvim'
 PS1="\[${BCyan}\]\[\@\] \[${BCyan}\][\[\u\]@\[${BGreen}\]\[\h\]\[${BCyan}\]]\n[\[${BYellow}\]\[\w\]\[${BCyan}\]]\$\[${NC}\] "
 
+# Setup PYTHONPATH
+export PYTHONPATH=`brew --prefix`/lib/python2.7/site-packages:$PYTHONPATH
+
