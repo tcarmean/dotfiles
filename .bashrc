@@ -1,5 +1,3 @@
-[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
-
 # Normal Colors
 Black='\e[0;30m'        # Black
 Red='\e[0;31m'          # Red
